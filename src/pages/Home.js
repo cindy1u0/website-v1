@@ -1,13 +1,12 @@
 import React from 'react';
-import Headshot from '../pictures/headshot.png';
-import Header from '../components/Header';
 import styled from 'styled-components';
+import Footer from '../components/Footer';
+
+import Headshot from '../pictures/headshot.png';
 import CodeIcon from '@material-ui/icons/Code';
 import PhotoCameraIcon from '@material-ui/icons/PhotoCamera';
 import MusicNoteIcon from '@material-ui/icons/MusicNote';
-import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 
-// TODO: Fix this height oh my lord
 const Wrapper = styled.div`
   background: #A8D0E6;
   height: 100vh;
@@ -15,14 +14,20 @@ const Wrapper = styled.div`
   @media (max-width: 900px) {
     height: 100%;
   }
+
+  @media (max-height: 580px) {
+    height: 100%;
+  }
 `;
 
 const Layout = styled.div`
   display: flex;
   flex-direction: row;
+  padding-top: 80px;
 
   @media (max-width: 900px) {
     flex-direction: column;
+    padding-top: unset;
   }
 `;
 
@@ -123,25 +128,9 @@ const StyledMusicNoteIcon = styled(MusicNoteIcon)`
   margin: 32px 10px 0 0;
 `;
 
-const NextPageIconContainer = styled.div`
-
-  svg {
-    bottom: 0;
-    color: #F76C6C;
-    height: 50px;
-    position: fixed;
-    width: 100%;
-
-    :hover {
-      cursor: pointer;
-    }
-  }
-`;
-
 const Home = () => {
   return (
     <Wrapper>
-      <Header/>
       <Layout>
         <LeftSide>
           <h3>Hello! My name is</h3>
@@ -163,9 +152,7 @@ const Home = () => {
           <ImageWrapper src={Headshot}/>
         </RightSide>
       </Layout>
-      <NextPageIconContainer>
-        <ExpandMoreIcon/>
-      </NextPageIconContainer>
+      <Footer color="#F8E9A1"/>
     </Wrapper>
   );
 }

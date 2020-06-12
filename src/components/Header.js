@@ -4,9 +4,10 @@ import OpenMenu from '../components/OpenMenu';
 import MenuOpenOutlinedIcon from '@material-ui/icons/MenuOpenOutlined';
 
 const Wrapper = styled.div`
-    height: 80px;
     line-height: 80px;
-    text-align: right;
+		text-align: right;
+		position: absolute;
+		width: 100%;
 
     p {
         float: right;
@@ -18,7 +19,7 @@ const Wrapper = styled.div`
 
         :hover {
             cursor: pointer;
-            color: #F76C6C;
+						text-decoration: underline;
         }
     }
 `;
