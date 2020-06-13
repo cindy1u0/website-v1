@@ -128,15 +128,15 @@ const About = () => {
             </LineBreak>
             <BodyText>
             Hi! My name is Cindy, and I am a Boston-based software engineer. I am currently 
-            a sophomore studying Computer Science major & Chemistry minor at 
+            a sophomore majoring in Computer Science and minoring in Chemistry at 
             Northeastern University. I enjoy building impactful software that benefits others.
             <br></br><br></br>
             As a Computer Science student, I have developed strong problem solving skills 
-            by taking a variety of classes at Northeastern. In order to explore more, I joined 
-            various tech organizations to improve my programming skills. With my experience 
+            through taking a variety of classes at Northeastern. In order to explore more, I joined 
+            some tech organizations to improve my programming skills. With my experience 
             in Javascript, Python, Java, etc., I often attend local hackathons with my friends.
             <br></br><br></br>
-            I am passionate about music. In my free time, I like to sing, and I am like 
+            I am passionate about music. In my free time, I like to sing, and I also like 
             playing instruments, such as piano, ukulele, etc. In addition to music, I am
             very interested in photography as photos allow me to capture the beauty in
             everyday life.
