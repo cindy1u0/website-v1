@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import Drawer from '@material-ui/core/Drawer';
+import { Link } from "react-scroll";
 
 const DrawerContainer = styled.div`
   height: 100%;
@@ -32,10 +33,10 @@ const OpenMenu = ({
     <DrawerContainer>
       <Drawer open={openDrawer} anchor='top' onClose={setClose}>
         <NavContainer>
-          <p>About</p>
-          <p>Experience</p>
-          <p>Projects</p>
-          <p>Photography</p>
+        <Link smooth={true} hashSpy={true} to='about'><p>About</p></Link>
+        <Link smooth={true} hashSpy={true} to='experience'><p>Experience</p></Link>
+        <Link smooth={true} hashSpy={true} to='projects'><p>Projects</p></Link>
+				<Link smooth={true} hashSpy={true} to='photography'><p>Photography</p></Link>
         </NavContainer>
       </Drawer>
     </DrawerContainer>

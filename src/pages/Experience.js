@@ -1,11 +1,8 @@
 import React from 'react';
 import styled from 'styled-components';
 
-import Footer from '../components/Footer';
-
-
 const Wrapper = styled.div`
-  background: #F76C6C;
+  background: #FFA99F;
   height: 100%;
   
   @media (min-width: 1030px) {
@@ -17,7 +14,7 @@ const Layout = styled.div`
   display: flex;
   flex-direction: row;
   margin: 0 35px;
-  padding-top: 60px;
+  padding-top: 50px;
 
   @media (max-width: 900px) {
     flex-direction: column;
@@ -28,14 +25,14 @@ const Layout = styled.div`
 
 
 const TitleText = styled.p`
-  color: #fff;
+  color: #303C6C;
   font-size: 35px;
   font-family: Georgia;
   margin-block-end: 20px;
 `;
 
 const Line = styled.hr`
-  border: 3px solid #fff;
+  border: 3px solid #303C6C;
   margin-inline-start: 0;
   margin-inline-end: 20px;
   width: 100px;
@@ -52,7 +49,7 @@ const BodyContainer = styled.div`
     > div {
       :not(:last-child):after {
         content: "";
-        border-bottom: 1px solid #fff;
+        border-bottom: 1px solid #303C6C;
         width: 100%;
       }
     }
@@ -71,7 +68,7 @@ const ExperienceContainer = styled.div`
 `;
 
 const Position = styled.span`
-  color: #fff;
+  color: #303C6C;
   font-size: 16px;
   font-family: Georgia;
   width: 30%;
@@ -83,7 +80,7 @@ const Position = styled.span`
 `;
 
 const Description = styled.span`
-  color: #fff;
+  color: #303C6C;
   font-size: 16px;
   font-family: Georgia;
   width: 55%;
@@ -95,7 +92,7 @@ const Description = styled.span`
 `;
 
 const Date = styled.span`
-  color: #fff;
+  color: #303C6C;
   font-size: 16px;
   font-family: Georgia;
   text-align: right;
@@ -109,7 +106,7 @@ const Date = styled.span`
 
 const Experience = () => {
   return (
-    <Wrapper>
+    <Wrapper id='experience'>
       <Layout>
         <Container>
           <TitleText>
@@ -119,7 +116,7 @@ const Experience = () => {
           <BodyContainer>
             <ExperienceContainer>
               <Position>
-              <a href="https://www.paperlessparts.com" style={{ color: '#fff', textDecoration: 'none' }}><strong>Paperless Parts</strong></a> <i>Boston, MA</i>
+              <a href="https://www.paperlessparts.com" style={{ color: '#303C6C', textDecoration: 'none' }}><strong>Paperless Parts</strong></a> <i>Boston, MA</i>
               <br></br>
               Full Stack Software Engineering Co-op
               </Position>
@@ -134,7 +131,7 @@ const Experience = () => {
             </ExperienceContainer>
             <ExperienceContainer>
               <Position>
-              <a href="https://www.sandboxnu.com" style={{ color: '#fff', textDecoration: 'none' }}><strong>Sandbox</strong></a> <i>Northeastern University</i>
+              <a href="https://www.sandboxnu.com" style={{ color: '#303C6C', textDecoration: 'none' }}><strong>Sandbox</strong></a> <i>Northeastern University</i>
               <br></br>
               Project Lead, Marketing & Events Director
               </Position>
@@ -154,8 +151,8 @@ const Experience = () => {
               Research Assistant
               </Position>
               <Description>
-              I investigate <strong>LLVM</strong> and <strong>pin tool</strong> to build <a href="https://dl.acm.org/doi/10.1145/3236454.3236505" style={{ color: '#fff', textDecoration: 'none' }}><u>IceBerg </u></a> 
-              for <strong>C++</strong>, working under Professor <a href="https://www.khoury.northeastern.edu/people/michael-shah/" style={{ color: '#fff', textDecoration: 'none' }}><u>
+              I investigate <strong>LLVM</strong> and <strong>pin tool</strong> to build <a href="https://dl.acm.org/doi/10.1145/3236454.3236505" style={{ color: '#303C6C', textDecoration: 'none' }}><u>IceBerg </u></a> 
+              for <strong>C++</strong>, working under Professor <a href="https://www.khoury.northeastern.edu/people/michael-shah/" style={{ color: '#303C6C', textDecoration: 'none' }}><u>
                 Mike Shah</u></a>. The goal is to profile and analyze locks and how much time we spend within critical sections.
               </Description>
               <Date>
@@ -164,7 +161,7 @@ const Experience = () => {
             </ExperienceContainer>
             <ExperienceContainer>
               <Position>
-              <a href="https://www.hackbeanpot.com" style={{ color: '#fff', textDecoration: 'none'}} >
+              <a href="https://www.hackbeanpot.com" style={{ color: '#303C6C', textDecoration: 'none'}} >
                 <strong>HackBeanpot</strong></a> <i>Boston, MA</i>
               <br></br>
               Sponsorship Team Member
@@ -200,7 +197,7 @@ const Experience = () => {
               </Position>
               <Description>
               I partnered with friends to start up a coding organization 
-              <a href="http://welovecoding.org/" style={{ color: '#fff', textDecoration: 'none'}} ><u>"We Love Coding"</u></a>.
+              <a href="http://welovecoding.org/" style={{ color: '#303C6C', textDecoration: 'none'}} ><u>"We Love Coding"</u></a>.
               I taught <strong>Processing.js</strong> to middle school students with special needs, and designed weekly lab including 
               demonstrations, homework, and projects 
               </Description>
@@ -211,7 +208,6 @@ const Experience = () => {
           </BodyContainer>
         </Container>
       </Layout>
-      <Footer color="#24305E" />
     </Wrapper>
   );
 }

@@ -1,14 +1,14 @@
 import React from 'react';
 import styled from 'styled-components';
-import Footer from '../components/Footer';
 
 import Headshot from '../pictures/headshot.png';
 import CodeIcon from '@material-ui/icons/Code';
 import PhotoCameraIcon from '@material-ui/icons/PhotoCamera';
 import MusicNoteIcon from '@material-ui/icons/MusicNote';
+import Footer from '../components/Footer';
 
 const Wrapper = styled.div`
-  background: #A8D0E6;
+  background: #BAE9EB;
   height: 100vh;
   
   @media (max-width: 900px) {
@@ -48,7 +48,7 @@ const LeftSide = styled.div`
   }
 
   h1 {
-    color: #ffffff;
+    color: #303C6C;
     font-family: Georgia;
     font-size: 80px;
     margin: 10px 0 15px 0;
@@ -59,7 +59,7 @@ const LeftSide = styled.div`
   }
 
   h3 {
-    color: #ffffff;
+    color: #303C6C;
     font-family: Georgia;
     font-size: 25px;
     margin: 100px 0 0 0;
@@ -71,7 +71,7 @@ const LeftSide = styled.div`
   }
   
   p {
-    color: #ffffff;
+    color: #303C6C;
     font-family: Georgia;
     font-size: 35px;
     margin: 30px 0 0 0;
@@ -96,7 +96,7 @@ const Icon = styled.div`
   display: flex;
 
   svg {
-    color: #F76C6C;
+    color: #303C6C;
 
     @media (max-width: 500px) {
       font-size: 7vw;
@@ -128,9 +128,11 @@ const StyledMusicNoteIcon = styled(MusicNoteIcon)`
   margin: 32px 10px 0 0;
 `;
 
-const Home = () => {
+const Home = ({
+  location
+}) => {
   return (
-    <Wrapper>
+    <Wrapper id='home'>
       <Layout>
         <LeftSide>
           <h3>Hello! My name is</h3>
@@ -152,7 +154,7 @@ const Home = () => {
           <ImageWrapper src={Headshot}/>
         </RightSide>
       </Layout>
-      <Footer color="#F8E9A1"/>
+      <Footer />
     </Wrapper>
   );
 }

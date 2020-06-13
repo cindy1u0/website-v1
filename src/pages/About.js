@@ -1,10 +1,9 @@
 import React from 'react';
 import Headshot from '../pictures/headshot2.JPG';
 import styled from 'styled-components';
-import Footer from '../components/Footer';
 
 const Wrapper = styled.div`
-  background: #F8E9A1;
+  background: #F7E7B0;
   height: 100vh;
   
   @media (max-width: 900px) {
@@ -57,7 +56,7 @@ const ImageWrapper = styled.img`
 `;
 
 const TitleText = styled.p`
-  color: #374785;
+  color: #303C6C;
   font-size: 35px;
   font-family: Georgia;
   margin-block-end: 20px;
@@ -68,7 +67,7 @@ const TitleText = styled.p`
 `;
 
 const BodyText = styled.p`
-  color: #374785;
+  color: #303C6C;
   font-size: 20px;
   font-family: Georgia;
   padding-right: 50px;
@@ -79,7 +78,7 @@ const BodyText = styled.p`
 `;
 
 const ResumeLink = styled.a`
-  color: #374785;
+  color: #303C6C;
   font-family: Georgia;
   font-size: 16px;
   text-decoration: none;
@@ -94,7 +93,7 @@ const IntroWrapper = styled.div`
 `;
 
 const Line = styled.hr`
-  border: 3px solid #374785;
+  border: 3px solid #303C6C;
   margin-inline-start: 0;
   margin-inline-end: 20px;
   width: 100px;
@@ -110,7 +109,7 @@ const LineBreak = styled.div`
 
 const About = () => {
   return (
-    <Wrapper>
+    <Wrapper id='about'>
       <Layout>
         <LeftSide>
         <ImageWrapper src={Headshot}/>
@@ -122,7 +121,8 @@ const About = () => {
             </TitleText>
             <LineBreak>
               <Line />
-              <ResumeLink href={"https://drive.google.com/file/d/1jY3D1uArqNDAxk2W4oGz_0KefKu4q4VI/view?usp=sharing/"}>
+              <ResumeLink 
+              href={"https://drive.google.com/file/d/1jY3D1uArqNDAxk2W4oGz_0KefKu4q4VI/view?usp=sharing/"}>
                 &gt;&gt; resume
               </ResumeLink>
             </LineBreak>
@@ -146,7 +146,6 @@ const About = () => {
           </IntroWrapper>
         </RightSide>
       </Layout>
-      <Footer color="#F76C6C" />
     </Wrapper>
   );
 }
