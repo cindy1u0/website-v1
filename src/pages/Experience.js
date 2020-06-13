@@ -14,11 +14,10 @@ const Layout = styled.div`
   display: flex;
   flex-direction: row;
   margin: 0 35px;
-  padding-top: 50px;
+  padding-top: 80px;
 
   @media (max-width: 900px) {
     flex-direction: column;
-    padding-top: unset;
   }
 `;
 
@@ -182,7 +181,7 @@ const Experience = () => {
               </Position>
               <Description>
               I held office hours and lab sessions to assist students with homework in <strong>Racket</strong>.
-              I graded students’ assignments weekly and leave comments for suggestions, and I attended weekly staff 
+              I graded students’ assignments weekly and left comments for suggestions, and I attended weekly staff 
               meeting and plan for the upcoming week with other TAs.
               </Description>
               <Date>

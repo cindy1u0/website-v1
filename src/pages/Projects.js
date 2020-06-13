@@ -91,6 +91,10 @@ const BodyContainer = styled.div`
     align-self: center;
     color: unset;
     height: 70px;
+
+    @media (max-width: 900px) {
+      visibility: hidden;
+    }
   }
 `;
 
@@ -100,15 +104,21 @@ const StyledArrowBackIosIcon = styled(ArrowBackIosIcon)`
     transform: translate(-10px, 0px);
     transition: transform 0.2s ease;
   }
+
+  @media (max-width: 900px) {
+    visibility: hidden;
+  }
 `;
 
 const StyledArrowForwardIosIcon = styled(ArrowForwardIosIcon)`
-  // margin-left: 10px;
-
   :hover {
     cursor: pointer;
     transform: translate(10px, 0px);
     transition: transform 0.2s ease;
+  }
+
+  @media (max-width: 900px) {
+    visibility: hidden;
   }
 `;
 

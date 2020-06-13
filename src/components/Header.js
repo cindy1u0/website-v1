@@ -24,12 +24,20 @@ const Wrapper = styled.div`
             cursor: pointer;
 						text-decoration: underline;
         }
-    }
+		}
+		
+		@media (max-width: 900px) {
+			line-height: 30px;
+		}
 `;
 
 const StyledMenuOpenOutlinedIcon = styled(MenuOpenOutlinedIcon)`
 	cursor: pointer;
-  margin: 30px 30px 0 0;
+	margin: 30px 30px 0 0;
+	
+	@media (max-width: 900px) {
+		margin: 25px 25px 0 0;
+	}
 `;
 
 const Head = styled.div`
@@ -53,6 +61,11 @@ const Container = styled.div`
 		font-size: 25px;
 		font-weight: 600;
 		margin-left: 50px;
+
+
+		@media (max-width: 900px) {
+			margin-top: 25px;
+		}
 	}
 `;
 
