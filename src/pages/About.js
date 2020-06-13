@@ -127,21 +127,19 @@ const About = () => {
               </ResumeLink>
             </LineBreak>
             <BodyText>
-            Hi! My name is Cindy, and I am a Boston-based software engineer. I enjoy 
-            building software to make people’s lives easier. Additionally, I am currently 
+            Hi! My name is Cindy, and I am a Boston-based software engineer. I am currently 
             a sophomore studying Computer Science major & Chemistry minor at 
-            Northeastern University.  
+            Northeastern University. I enjoy building impactful software that benefits others.
             <br></br><br></br>
-            As I took more classes in school, I’ve become more and more interested in the
-            CS field. In order to explore more, I joined various tech organizations for
-            workshops and talks. With my experience in Javascript, Python, Java, etc., I often attend 
-            local hackathons with my friends. Through those activities, I am able to apply 
-            my knowledge to make an impact and strengthen my coding skill.
+            As a Computer Science student, I have developed strong problem solving skills 
+            by taking a variety of classes at Northeastern. In order to explore more, I joined 
+            various tech organizations to improve my programming skills. With my experience 
+            in Javascript, Python, Java, etc., I often attend local hackathons with my friends.
             <br></br><br></br>
-            In my free time, I like to sing. With my passion in music, I am also good at 
-            playing instruments, such as piano, ukulele, etc. Another interest of mine lies
-            on photography as I enjoy taking pictures of surroundings and recording things
-            that happen in my life.
+            I am passionate about music. In my free time, I like to sing, and I am like 
+            playing instruments, such as piano, ukulele, etc. In addition to music, I am
+            very interested in photography as photos allow me to capture the beauty in
+            everyday life.
             </BodyText>
           </IntroWrapper>
         </RightSide>

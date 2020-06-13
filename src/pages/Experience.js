@@ -135,9 +135,9 @@ const Experience = () => {
               Project Lead, Marketing & Events Director
               </Position>
               <Description>
-              I led <u>"Project Signaligner"</u> and will lead "Vocab Buddy" in Fall 2020. I adapt API requests to retrieve images to display 
-              on the interface using <strong>Python</strong> and <strong>Javascript</strong>. I meet with clients bi-weekly and manage stories with <strong>Agile System</strong>, and I 
-            manage Sandbox social media and plan events.
+              I led <u>"Project Signaligner"</u>, and will lead "Vocab Buddy" in Fall 2020. I use API requests to retrieve images to display 
+              on the interface using <strong>Python</strong> and <strong>Javascript</strong>. I meet with clients bi-weekly, manage stories with <strong>Agile System</strong>, take care of 
+              Sandbox social media, and plan events.
               </Description>
               <Date>
                 (Jan 2020-Present)
@@ -150,9 +150,9 @@ const Experience = () => {
               Research Assistant
               </Position>
               <Description>
-              I investigate <strong>LLVM</strong> and <strong>pin tool</strong> to build <a href="https://dl.acm.org/doi/10.1145/3236454.3236505" style={{ color: '#303C6C', textDecoration: 'none' }}><u>IceBerg </u></a> 
-              for <strong>C++</strong>, working under Professor <a href="https://www.khoury.northeastern.edu/people/michael-shah/" style={{ color: '#303C6C', textDecoration: 'none' }}><u>
-                Mike Shah</u></a>. The goal is to profile and analyze locks and how much time we spend within critical sections.
+              I explore <strong>LLVM</strong> and <strong>Pintools</strong> to build <a href="https://dl.acm.org/doi/10.1145/3236454.3236505" style={{ color: '#303C6C', textDecoration: 'none' }}><u>"IceBerg" </u></a> 
+              for <strong>C++</strong>, and I work under Professor <a href="https://www.khoury.northeastern.edu/people/michael-shah/" style={{ color: '#303C6C', textDecoration: 'none' }}><u>
+                Mike Shah</u></a>. The goal is to profile and analyze locks on how much time we spend within critical sections.
               </Description>
               <Date>
                 (Jan 2020-Present)
@@ -166,8 +166,8 @@ const Experience = () => {
               Sponsorship Team Member
               </Position>
               <Description>
-                I stay in contact with companies to raise fundings for Hackathon, and get feedback from companies 
-                regarding the past year HackBeanpot.
+                I maintain a close contact with companies to raise funding for Hackathon, and get feedback from companies 
+                regarding their past year experience at HackBeanpot.
               </Description>
               <Date>
                 (Apr 2020-Present)
@@ -181,8 +181,8 @@ const Experience = () => {
               </Position>
               <Description>
               I held office hours and lab sessions to assist students with homework in <strong>Racket</strong>.
-              I graded students’ assignments weekly and left comments for suggestions, and I attended weekly staff 
-              meeting and plan for the upcoming week with other TAs.
+              I graded students’ assignments weekly, and I attended weekly staff meeting to make plans for the upcoming week 
+              with other TAs.
               </Description>
               <Date>
                 (Jan 2019-Dec 2019)
@@ -195,10 +195,10 @@ const Experience = () => {
               Coding Club Instructor
               </Position>
               <Description>
-              I partnered with friends to start up a coding organization 
+              I partnered with friends to start a coding organization called 
               <a href="http://welovecoding.org/" style={{ color: '#303C6C', textDecoration: 'none'}} ><u>"We Love Coding"</u></a>.
               I taught <strong>Processing.js</strong> to middle school students with special needs, and designed weekly lab including 
-              demonstrations, homework, and projects 
+              demonstrations, homework, and projects.
               </Description>
               <Date>
                 (Jan 2019-Dec 2019)
