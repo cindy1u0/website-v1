@@ -20,7 +20,7 @@ export const PROJECTS = [
     key: 'bookAyeAye',
     name: 'BookAyeAye',
     img: Book,
-    description: 'I built an app with friends that detects where a book locates from a bookshelf using Android Studio and Google Vision API. It earns Google API Honorable Mention at BostonHacks 2019.',
+    description: 'I built an app with friends that finds where a book locates exactly on a bookshelf using Android Studio and Google Vision API. It earned Google API Honorable Mention at BostonHacks 2019.',
     link: 'https://github.com/cindy1u0/BookAyeAye',
   },
   {

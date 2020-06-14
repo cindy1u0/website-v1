@@ -178,12 +178,12 @@ export const PHOTOS = [
   {
     src: Image26,
     width: 3,
-    height: 3,
+    height: 4,
   },
   {
     src: Image27,
     width: 5,
-    height: 3,
+    height: 4,
   },
   {
     src: Image28,

@@ -128,7 +128,7 @@ const About = () => {
             </LineBreak>
             <BodyText>
             Hi! My name is Cindy, and I am a Boston-based software engineer. I am currently 
-            a sophomore majoring in Computer Science and minoring in Chemistry at 
+            a junior majoring in Computer Science and minoring in Chemistry at 
             Northeastern University. I enjoy building impactful software that benefits others.
             <br></br><br></br>
             As a Computer Science student, I have developed strong problem solving skills 
@@ -137,8 +137,8 @@ const About = () => {
             in Javascript, Python, Java, etc., I often attend local hackathons with my friends.
             <br></br><br></br>
             I am passionate about music. In my free time, I like to sing, and I also like 
-            playing instruments, such as piano, ukulele, etc. In addition to music, I am
-            very interested in photography as photos allow me to capture the beauty in
+            playing instruments, such as piano and ukulele. In addition to music, I am
+            very interested in photography. Photos allow me to capture the beauty in
             everyday life.
             </BodyText>
           </IntroWrapper>
