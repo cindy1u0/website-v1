@@ -42,7 +42,7 @@ import Image40 from '../pictures/photos/40.jpg';
 export const PHOTOS = [
   {
     src: Image10,
-    width: 4,
+    width: 3,
     height: 2,
   },
   {
