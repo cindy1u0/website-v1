@@ -135,7 +135,7 @@ const Experience = () => {
               Project Lead, Marketing & Events Director
               </Position>
               <Description>
-              I led <u>"Project Signaligner"</u>, and will lead "Vocab Buddy" in Fall 2020. I use API requests to retrieve images to display 
+              I led <a href="https://crowdgames.github.io/signaligner/" style={{ color: '#303C6C', textDecoration: 'none' }}><u>"Project Signaligner"</u></a> by Northeastern mHealth Lab, and will lead "Vocab Buddy" in Fall 2020. I use API requests to retrieve images to display 
               on the interface using <strong>Python</strong> and <strong>Javascript</strong>. I meet with clients bi-weekly, manage stories with <strong>Agile System</strong>, take care of 
               Sandbox social media, and plan events.
               </Description>
