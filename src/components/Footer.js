@@ -54,7 +54,7 @@ const Footer = () => {
         onClick={() => window.open('https://www.linkedin.com/in/cindy1u0/', '_blank')}  
       />
       <PersonOutlineIcon
-        onClick={() => window.open('https://drive.google.com/file/d/1jY3D1uArqNDAxk2W4oGz_0KefKu4q4VI/view?usp=sharing/', '_blank')}  
+        onClick={() => window.open('https://drive.google.com/file/d/1i3OZEhMT_MxLt4uaD8BrDvuv74DnjEF9/view?usp=sharing', '_blank')}  
       />
       <a href="mailto:luo.xiny@northeastern.edu">
       <StyledEmail/>
