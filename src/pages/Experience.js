@@ -125,7 +125,7 @@ const Experience = () => {
               as well as managing <strong>Rainforest</strong> automation testing and QA PRs
               </Description>
               <Date>
-                (Jan 2020-Present)
+                (Jan 2020-July 2020)
               </Date>
             </ExperienceContainer>
             <ExperienceContainer>
@@ -140,7 +140,7 @@ const Experience = () => {
               Sandbox social media, and plan events.
               </Description>
               <Date>
-                (Jan 2020-Present)
+                (June 2019-Present)
               </Date>
             </ExperienceContainer>
             <ExperienceContainer>
@@ -155,7 +155,7 @@ const Experience = () => {
                 Mike Shah</u></a>. The goal is to profile and analyze locks on how much time we spend within critical sections.
               </Description>
               <Date>
-                (Jan 2020-Present)
+                (Summer 2020)
               </Date>
             </ExperienceContainer>
             <ExperienceContainer>
@@ -185,7 +185,7 @@ const Experience = () => {
               with other TAs.
               </Description>
               <Date>
-                (Jan 2019-Dec 2019)
+                (Jan 2019-Present)
               </Date>
             </ExperienceContainer>
             <ExperienceContainer>
