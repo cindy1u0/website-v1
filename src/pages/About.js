@@ -122,7 +122,7 @@ const About = () => {
             <LineBreak>
               <Line />
               <ResumeLink 
-              href={"https://drive.google.com/file/d/1jY3D1uArqNDAxk2W4oGz_0KefKu4q4VI/view?usp=sharing/"}>
+              href={"https://drive.google.com/file/d/1i3OZEhMT_MxLt4uaD8BrDvuv74DnjEF9/view?usp=sharing"}>
                 &gt;&gt; resume
               </ResumeLink>
             </LineBreak>
